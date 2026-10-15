@@ -1,14 +1,8 @@
 name: Prettier code formatter
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-  push:
-    branches:
-      - master
-      - main
+  # Manual only; this formatting check is not needed for routine website edits.
+  workflow_dispatch:
 
 jobs:
   check:
