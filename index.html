@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Yifan Xue — robotics, safe control, motion planning, and learning-enabled autonomous systems.">
+  <title>Yifan Xue</title>
+  <style>
+    :root{color-scheme:light;--ink:#202124;--muted:#626a73;--line:#e8eaed;--blue:#1769aa;--soft:#f6f8fa;--max:1040px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;background:#fff;color:var(--ink);font:16px/1.72 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}header{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:5}
+    .nav{max-width:var(--max);margin:auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:650;color:var(--ink);font-size:17px;white-space:nowrap}.navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:14px}.navlinks a{color:#444}
+    main{max-width:var(--max);margin:auto;padding:54px 24px 80px}.hero{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:48px;align-items:start;padding:18px 0 42px}.eyebrow{color:var(--muted);font-size:13px;letter-spacing:.11em;text-transform:uppercase;font-weight:650}.hero h1{font-size:clamp(38px,5vw,54px);line-height:1.12;letter-spacing:-.045em;margin:12px 0 18px;font-weight:650}.lead{font-size:19px;line-height:1.65;color:#454b52;max-width:720px}.hero p{margin:0 0 15px}.links{display:flex;gap:16px;flex-wrap:wrap;margin-top:22px;font-size:14px}.profile{border:1px solid var(--line);border-radius:8px;background:var(--soft);aspect-ratio:4/5;display:flex;align-items:center;justify-content:center;text-align:center;padding:18px;color:var(--muted);font-size:14px}.profile strong{display:block;color:#4c5661;font-size:15px;margin-bottom:5px}
+    section{border-top:1px solid var(--line);padding:34px 0}h2{font-size:24px;letter-spacing:-.025em;margin:0 0 18px;font-weight:650}h3{font-size:17px;line-height:1.45;margin:0 0 6px;font-weight:650}.muted{color:var(--muted);font-size:14px}.research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);border-radius:8px;padding:18px;background:white}.card p{margin:8px 0 0;font-size:14px;color:#505760;line-height:1.65}.pub{padding:17px 0;border-bottom:1px solid var(--line)}.pub:last-child{border-bottom:0}.pub p{margin:5px 0;color:#505760;font-size:14px}.tag{display:inline-block;border:1px solid #dfe3e8;border-radius:4px;padding:2px 7px;margin:5px 5px 0 0;font-size:12px;color:#59636e}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:32px}.plain-list{margin:0;padding-left:19px}.plain-list li{margin:7px 0}footer{border-top:1px solid var(--line);padding:24px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:720px){.nav{align-items:flex-start;flex-direction:column;gap:8px}.navlinks{gap:14px}.hero{grid-template-columns:1fr;gap:24px;padding-top:8px}.profile{max-width:210px;aspect-ratio:1/1}.research-grid,.two-col{grid-template-columns:1fr}main{padding-top:34px}}
+  </style>
+</head>
+<body>
+<header><nav class="nav" aria-label="Main navigation"><a class="brand" href="#">Yifan Xue</a><div class="navlinks"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></nav></header>
+<main>
+  <div class="hero" id="about">
+    <div><div class="eyebrow">Robotics · Safe Control · Motion Planning</div><h1>Yifan Xue</h1>
+      <p class="lead">I develop learning-enabled autonomous systems that integrate perception, planning, and control for safe, efficient, and goal-directed robot navigation.</p>
+      <p>I am a Ph.D. student in Mechanical Engineering and Applied Mechanics at the University of Pennsylvania, advised by <a href="https://www.me.upenn.edu/people/nadia-figueroa/" target="_blank" rel="noreferrer">Prof. Nadia Figueroa</a>. My research focuses on safety-critical control, liveness-aware navigation, and learning-enhanced motion planning in dynamic environments.</p>
+      <div class="links"><a href="#publications">Selected publications ↓</a><a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar ↗</a><a href="https://github.com/yifanxueseas" target="_blank" rel="noreferrer">GitHub ↗</a><a href="mailto:">Email</a></div>
+    </div>
+    <div class="profile"><div><strong>Profile photo</strong>Replace this placeholder with a portrait in <code>assets/</code>.</div></div>
+  </div>
+  <section id="research"><h2>Research interests</h2><div class="research-grid">
+    <article class="card"><h3>Safe control and liveness</h3><p>Control barrier functions and modulation-based methods that preserve collision safety while helping robots make sustained progress toward goals.</p><span class="tag">CBF-QP</span><span class="tag">Liveness</span></article>
+    <article class="card"><h3>Learning-enhanced navigation</h3><p>Combining motion prediction, environmental representations, and safe control to navigate cluttered, dynamic, and unstructured environments.</p><span class="tag">Motion prediction</span><span class="tag">Local minima</span></article>
+    <article class="card"><h3>Perception and autonomy</h3><p>Integrating multi-sensor perception and online environmental memory with planning and control for efficient, robust robot autonomy.</p><span class="tag">Multi-sensor</span><span class="tag">Robot learning</span></article>
+  </div></section>
+  <section id="publications"><h2>Selected publications</h2>
+    <article class="pub"><h3><a href="https://arxiv.org/abs/2601.10233" target="_blank" rel="noreferrer">Proactive Local-Minima-Free Robot Navigation: Blending Motion Prediction with Safe Control</a></h3><p>Yifan Xue and collaborators · 2026</p><p>Combines motion prediction, an environment representation, and adaptive safe control to address local-minimum failures in dynamic robot navigation.</p><a href="https://arxiv.org/abs/2601.10233" target="_blank" rel="noreferrer">arXiv</a> · <a href="https://github.com/yifanxueseas/mmp_mcbf_control" target="_blank" rel="noreferrer">Code</a></article>
+    <article class="pub"><h3><a href="https://arxiv.org/abs/2502.14238" target="_blank" rel="noreferrer">No Minima, No Collisions: Combining Modulation and Control Barrier Function Strategies for Feasible Dynamic Collision Avoidance</a></h3><p>Yifan Xue and Nadia Figueroa · 2025</p><p>A framework connecting modulation-based dynamical systems and control barrier function quadratic programs for safety and liveness in dynamic collision avoidance.</p><a href="https://arxiv.org/abs/2502.14238" target="_blank" rel="noreferrer">arXiv</a></article>
+    <article class="pub"><h3>Memory-Aware Multi-Sensor Perception for Efficient and Safe Navigation in Dynamic Environments</h3><p>Yifan Xue and collaborators · 2026</p><p>Online environmental memory and multi-sensor perception for efficient, safe navigation without relying on a pre-built map.</p><span class="muted">Add paper link when available</span></article>
+  </section>
+  <section id="projects"><h2>Research projects</h2><div class="two-col">
+    <article><h3>Modulated CBF-QP for safe and live navigation</h3><p class="muted">Safety-critical control · Dynamic obstacle avoidance</p><p>Bridging modulation-based control and CBF-QPs to avoid collisions while reducing undesirable equilibria and dysfunctional circulation around obstacles.</p><a href="https://github.com/yifanxueseas" target="_blank" rel="noreferrer">Explore code on GitHub ↗</a></article>
+    <article><h3>Prediction-informed local-minima-free navigation</h3><p class="muted">Motion prediction · Geometric approximation · Safe control</p><p>Using predicted dynamic obstacles and online geometric representations to guide robots through cluttered environments while maintaining safe control.</p><a href="https://github.com/yifanxueseas/mmp_mcbf_control" target="_blank" rel="noreferrer">Project repository ↗</a></article>
+  </div></section>
+  <section><div class="two-col"><div><h2>Experience & recognition</h2><ul class="plain-list"><li>Ph.D. research, University of Pennsylvania</li><li>Autonomous Driving Research Intern, HRI-US (Summer 2025)</li><li>Best Paper Finalist, LTP Workshop at IROS 2026</li></ul></div><div><h2>CV</h2><p>My CV will be available here soon.</p><p><a href="mailto:">Request a copy by email</a></p><p class="muted">Add a PDF at <code>assets/pdf/cv.pdf</code> and link it here when ready.</p></div></div></section>
+  <section id="contact"><h2>Contact</h2><p>I welcome conversations about robot navigation, safe control, motion planning, and learning-enabled autonomy.</p><p><a href="https://github.com/yifanxueseas" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://scholar.google.com/" target="_blank" rel="noreferrer">Google Scholar</a> · <a href="mailto:">Email (add address)</a></p></section>
+</main>
+<footer>© 2026 Yifan Xue · Built with a clean, light academic design.</footer>
+</body></html>
